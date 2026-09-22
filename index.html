@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <title>Aptia Q2 Wrapped 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="reel-shell" aria-label="Aptia Q2 Wrapped 2026 animated reel">
+      <div class="reel-frame">
+        <div class="topbar">
+          <span class="wordmark">APTIA</span>
+          <span class="scene-label" id="sceneLabel">01 / 12</span>
+        </div>
+        <div class="progress-track" id="progressTrack"></div>
+        <div class="viewport" id="viewport">
+          <section class="scene scene-intro is-active" data-duration="3000">
+            <div class="noise"></div><span class="eyebrow">Q2 / 2026</span>
+            <div class="terminal-cursor intro-cursor"></div>
+            <div class="typed intro-command">$ aptia q2 wrapped<span class="blink">_</span></div>
+            <div class="intro-lockup"><h1>APTIA</h1><p>Q2 WRAPPED 2026</p><small>Your quarter in DevOps.</small></div>
+            <div class="scene-foot"><span>01</span><span>DEVOPS / INVESTIGATION</span></div>
+          </section>
+
+          <section class="scene scene-hours" data-duration="3000">
+            <span class="eyebrow">YOUR MOST PLAYED ACTIVITY</span>
+            <div class="hours-wrap"><div class="big-number counter" data-target="102312.3">0</div><div class="big-unit">HOURS</div></div>
+            <p class="swap-copy"><span class="copy-a">spent investigating things.</span><span class="copy-b">that should've taken <b>minutes.</b></span></p>
+            <div class="mini-meter"><span></span></div><span class="tiny-note">a statistically concerning amount</span>
+          </section>
+
+          <section class="scene scene-repo" data-duration="4400">
+            <span class="eyebrow">YOUR TOP DEVOPS CONTEXTS</span>
+            <h2>You went looking<br />for <em>ONE FILE.</em></h2>
+            <div class="repo-stack">
+              <div class="repo-card repo-back"><span>REPO / 03</span><strong>platform-services</strong><small>↳ another branch</small></div>
+              <div class="repo-card repo-mid"><span>REPO / 02</span><strong>infra-production</strong><small>↳ services / payments</small></div>
+              <div class="repo-card repo-front"><span><i class="green-dot"></i> REPO / 01</span><strong>gitops-jenkins</strong><div class="tree"><span>⌄ jenkins</span><span>⌄ pipelines</span><span>⌄ services</span><span>⌄ production</span><b>Jenkinsfile</b></div></div>
+            </div>
+            <div class="repo-hunt"><span class="hunt-status">Jenkinsfile found</span><span class="hunt-wait">Wait...</span><span class="hunt-wrong">wrong branch</span></div>
+            <p class="bottom-caption">You knew it existed. Somewhere.</p>
+          </section>
+
+          <section class="scene scene-context" data-duration="4300">
+            <span class="eyebrow">CONTEXT SWITCHING</span>
+            <h2>Which<br /><em>cluster?</em></h2>
+            <div class="terminal-panel"><div class="terminal-head"><span class="terminal-lights">● ● ●</span><span>zsh — 80×24</span><span>⌁</span></div><div class="terminal-body"><p>$ kubectl config get-contexts</p><div class="contexts"><span>dev</span><span>staging</span><span class="selected">prod</span><span>eks-prod</span><span>eks-staging</span><span>customer-prod</span><span>customer-prod-2</span></div><p class="flicker-line">$ kubectl config use-context <i>customer-prod-2</i></p></div></div>
+            <div class="account-switch"><span>AWS ACCOUNT</span><b>1234...</b><i>→</i><b>5678...</b><i>→</i><b>9012...</b></div>
+            <div class="context-meta"><span>ROLE <b>deploy-prod</b></span><span>REGION <b>us-east-1</b></span><span>CLUSTER <b>customer-prod-2</b></span><span>NAMESPACE <b>payments</b></span></div>
+            <strong class="context-wait">WAIT.</strong>
+          </section>
+
+          <section class="scene scene-build" data-duration="4600">
+            <div class="build-top"><span class="eyebrow">JENKINS / BUILD #1842</span><span class="status-success">● BUILD SUCCESS</span><span class="status-failed">● BUILD FAILED</span></div>
+            <h2>Where?</h2>
+            <div class="build-bar"><span></span></div><span class="build-percent">98%</span>
+            <div class="log-window"><div class="log-scroll"><p>INFO  Fetching deployment manifest</p><p>INFO  Starting pipeline step 8 / 9</p><p class="warn">WARNING  retrying connection</p><p class="error">ERROR  timeout waiting for pod</p><p class="error">ERROR  health check failed</p><p class="error">ERROR  deployment failed</p><p>Caused by: configuration mismatch</p><p class="error">ERROR  exit code 1</p><p class="error">ERROR  pipeline aborted</p><p class="highlight">ERROR: deployment failed</p></div></div>
+          </section>
+
+          <section class="scene scene-sources" data-duration="3000">
+            <span class="eyebrow">THE INVESTIGATION LOOP</span>
+            <div class="source-grid"><div class="source github"><b>GITHUB</b><span>repository tree</span></div><div class="source jenkins"><b>JENKINS</b><span>failed build</span></div><div class="source argo"><b>ARGO CD</b><span>sync status</span></div><div class="source datadog"><b>DATADOG</b><span>error graph</span></div><div class="source aws"><b>AWS / EKS</b><span>cluster</span></div></div>
+            <div class="source-words"><span>FIND THE REPO.</span><span>FIND THE BUILD.</span><span>FIND THE CLUSTER.</span><span>FIND THE LOGS.</span></div>
+          </section>
+
+          <section class="scene scene-pivot" data-duration="3000"><div class="pivot-copy"><p>The problem wasn't investigating.</p><p>It was finding where to investigate.</p><strong>What if you didn't have to?</strong></div></section>
+
+          <section class="scene scene-cli" data-duration="3000"><div class="hero-terminal"><div class="terminal-head"><span class="terminal-lights">● ● ●</span><span>aptia / investigate</span><span>⌁</span></div><div class="cli-type"><span>$ aptia</span><span>$ aptia investigate</span><span>$ aptia investigate <i>&lt;service&gt;</i></span></div></div><div class="cli-tag"><b>One CLI.</b><span>Every clue.</span></div></section>
+
+          <section class="scene scene-evidence" data-duration="5600"><span class="eyebrow">ONE COMMAND → MULTIPLE SOURCES</span><div class="evidence-terminal"><span>$ aptia investigate payment-service</span><div class="terminal-output">collecting context<span>····················</span>done</div></div><div class="source-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="evidence-cards"><article><b>GITHUB</b><span>Jenkinsfile found</span></article><article><b>JENKINS</b><span>Build #1842 — FAILED</span></article><article><b>ARGO CD</b><span>Deployment — OUT OF SYNC</span></article><article><b>EKS</b><span>pod restarted 6 times</span></article><article><b>DATADOG</b><span>Error rate ↑ 34%</span></article><article><b>AWS</b><span>account / region / cluster</span></article></div></section>
+
+          <section class="scene scene-result" data-duration="4000"><span class="eyebrow">INVESTIGATION / PAYMENT-SERVICE</span><div class="result-terminal"><p>$ aptia investigate payment-service</p><div class="result-title">INVESTIGATION <i>● COMPLETE</i></div><div class="result-grid"><span>Build</span><b>FAILED</b><span>Deployment</span><b>DEGRADED</b><span>Cluster</span><b>prod-eks</b><span>Pod</span><b>CrashLoopBackOff</b></div><div class="likely"><small>LIKELY CAUSE</small><strong>configuration mismatch</strong></div></div><div class="result-tag"><span>Stop hunting.</span><b>Start investigating.</b></div></section>
+
+          <section class="scene scene-less" data-duration="4300"><div class="workflow-windows"><span>GitHub</span><span>Jenkins</span><span>AWS</span><span>EKS</span><span>Argo CD</span><span>Datadog</span><span>kubectl</span></div><div class="less-line">LESS CONTEXT SWITCHING.</div><div class="less-line">LESS LOG HUNTING.</div><div class="less-line accent">MORE TIME FIXING THINGS.</div><div class="collapse-prompt">$ aptia investigate<span class="blink">_</span></div></section>
+
+          <section class="scene scene-reveal" data-duration="5000"><div class="reveal-command">$ aptia investigate<span class="blink">_</span></div><div class="reveal-lockup"><span>APTIA</span><h1>INVESTIGATE</h1><p>DevOps investigation, from the command line.</p><small>COMING SOON</small></div><div class="reveal-brand">APTIA <i>▰</i></div></section>
+        </div>
+        <div class="controls"><button class="control-button" id="playButton" aria-label="Pause reel">Ⅱ</button><input id="scrubber" type="range" min="0" max="11" value="0" aria-label="Jump to scene" /><button class="control-button" id="soundButton" aria-label="Toggle sound">◌</button></div>
+      </div>
+      <p class="hint">Click the reel or use ← → to navigate</p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
